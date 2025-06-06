@@ -15,11 +15,11 @@ const Resume = () => {
             <h1 className="name">Ashley Brooks</h1>
             <h2>
               3690 E Stampedee Gilbert, AZ 85297 <br />
-              Phone: 480-842-9872 | Email:<span className="email"> ashleybrooks4916@gmail.com</span> <br />
-              Portfolio: <span className="email">http://gitlab.perryville.perseverenow.org/abrooks/tech-resume-and-portfolio
+              Phone: 480-324-6226 | Email:<span className="email"> a.brooks9385@gmail.com</span> <br />
+              Portfolio: <span className="email">https://github.com/ashleyCodie/My-Portfolio
               </span> <br />
               GitLab:  <span className="email">http://gitlab.perryville.perseverenow.org/abrooks</span> <br />
-              LinkedIn:  <span className="email">http://linkedin/AshleyBrooks </span>
+              LinkedIn:  <span className="email">www.linkedin.com/in/ashley-brooks-257778362 </span>
             </h2>
             <br />
             <br />

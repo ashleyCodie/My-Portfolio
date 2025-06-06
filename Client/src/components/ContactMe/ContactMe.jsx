@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import lady from "../../assets/images/avatarLO.jpg";
+import ashley from "../../assets/images/20250519_204941.jpg";
 
 const ContactMe = () => {
   const navigate = useNavigate();
@@ -25,13 +25,16 @@ const ContactMe = () => {
               <h4>Full Stack Web Developer</h4>
               {/* <hr className="purpleLine2" /> */}
               <div>
-                <img src={lady} className="myPhoto" alt="myPhoto" />
+                <img src={ashley} className="myPhoto" alt="myPhoto" />
               </div>
               <p className="myInfo">
-                Phone: 480-842-9872 <br />
-                Email: ashleybrooks4916@gmail.com <br />
+                Phone: 480-324-6226 <br />
+                Email: a.brooks9385@gmail.com <br />
+                LinkedIn: www.linkedin.com/in/ashley-brooks-257778362 <br />
+                GitHub: https://github.com/ashleyCodie <br />
+                GitLab: http://gitlab.perryville.perseverenow.org/abrooks 
                 {/* GitLab: http://gitlab.perryville.perseverenow.org/abrooks <br />
-                LinkedIn: http//:linkedin/AshleyBrooks */}
+                // LinkedIn: http//:linkedin/AshleyBrooks */}
               </p>
               <div className="socialWrapper">
                 <div class="container-fluid text-center">
@@ -53,7 +56,7 @@ const ContactMe = () => {
                           <path d="m15.734 6.1-.022-.058L13.534.358a.57.57 0 0 0-.563-.356.6.6 0 0 0-.328.122.6.6 0 0 0-.193.294l-1.47 4.499H5.025l-1.47-4.5A.572.572 0 0 0 2.47.358L.289 6.04l-.022.057A4.044 4.044 0 0 0 1.61 10.77l.007.006.02.014 3.318 2.485 1.64 1.242 1 .755a.67.67 0 0 0 .814 0l1-.755 1.64-1.242 3.338-2.5.009-.007a4.05 4.05 0 0 0 1.34-4.668Z" />
                         </svg>
                       </a>
-                      <a href="http//:linkedin/AshleyBrooks" target="_blank">
+                      <a href="www.linkedin.com/in/ashley-brooks-257778362" target="_blank">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="40"
@@ -65,7 +68,7 @@ const ContactMe = () => {
                           <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
                         </svg>
                       </a>
-                      <a href="" target="_blank">
+                      <a href="https://github.com/ashleyCodie" target="_blank">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="40"
