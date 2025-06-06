@@ -1,42 +1,445 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+.myBody {
+  background-color: black;
+  margin: 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-right: 10px dotted blueviolet;
+ 
+
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 0px;
+  
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: black;
+  padding: 15px;   
+  margin-left: 15%;
+  margin-top: 2%;
+  
+}
+
+.navWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  background-color: blueviolet;
+  color: white;
+
+  
+}
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+  height: 99999%;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  /* flex-basis: 150px; */
+  border-right: 10px dotted black;
+}
+
+.navContent{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.navLinks {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 55%;
+  font-size: 28px;
+  margin-left: 15%;
+
+}
+
+.navLinks a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.greetingWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 97%;
+  padding: 5px;
+  background-color: white;
+  margin: 15px;
+}
+.myImage{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  /* margin-left: 20%; */
+ 
+}
+.code6 {
+  width: 300px;
+  margin-left: 15%;
+  margin-top: 25%;
+  
+}
+
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  color: blueviolet;
+  margin: 30px;
+  padding: 15px;
+}
+
+.techDev {
+  font-size: 30px;
+  color: black;
+  margin: 30px;
+}
+
+.purpleLine {
+  width: 55px;
+  height: 10px;
+  background-color: blueviolet;
+  align-items: left;
+  margin-left: 30px;
+  border: 1px solid blueviolet;
+}
+
+.myName {
+  font-size: 72px;
+  margin: 30px;
+  color: black;
+}
+
+.assetsWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 1%;
+  
+}
+
+
+.resumeBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  background-color: blueviolet;
+  line-height: 30px;
+  /* text-align: center; */
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  width: 450px;
+  align-items: center;
+  border: 1px solid white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.portfolioBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  background-color: blueviolet;
+  color: white;
+  line-height: 30px;
+  /* text-align: center; */
+  padding: 20px;
+  font-size: 24px;
+  width: 450px;
+  align-items: center;
+  border: 1px solid white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mainWrapper2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  padding: 10px;   
+  margin-bottom: 30px;
+}
+.aboutWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 99%;
+  padding: 10px;
+  background-color: white;
+  margin-left: 8px;
+}
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  padding: 15px;
+  
+  width: 100%;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.objective {
+  text-decoration: underline;
+  font-size: 24px;
+  background-color: blueviolet; 
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.purpleLine2 {
+  
+  height: 10px;
+  background-color: blueviolet;
+  
+  margin: 15px;
+  border: 1px solid blueviolet;
+
+}
+
+.myResume {
+  text-align: center;
+  font-size:55px;
+  text-decoration: underline;
+  color: black;
+  background-color: blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.myResumeWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+
+}
+
+.myResumeContent{
+  text-align: center;
+  background-color: white;
+  border: 20px solid black;
+  font-size: 16px;
+    
+}
+.name {
+  margin-top: 25px;
+}
+
+.email {
+  text-decoration: underline;
+  color: blue;
+}
+
+.returnHome {
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 10px;
+}
+
+.techSkills, .projects {
+  text-decoration: underline;
+  font-size: 24px;
+  background-color: blueviolet;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.aboutTech {
+  
+      display: flex;
+      flex-direction: column;
+      float: left;
+      font-size: 25px;
+      padding: 15px;
+      /* margin-left: 5px; */
+      width: 100%;
+      text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .aboutText {
+      font-size: 24px;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .techWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 99%;
+  padding: 10px;
+  background-color: white;
+  margin-left: 8px;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .intro {
+      font-size: 24px;
+  }
 
-.read-the-docs {
-  color: #888;
-}
+  .projectsWrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: stretch;
+      width: 98%;
+      padding: 10px;
+      background-color: white;
+      margin-left: 25px;
+      font-size: 12px;
+  }
+
+  h5 {
+      text-decoration: underline;
+      font-size: 24px;;
+  }
+  h4 {
+     margin-bottom: 10px;
+      font-size: 24px;;
+  }
+
+  .myPortfolioWrapper {
+      display: flex;
+      flex-direction: column;
+      background-color: blueviolet;
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+
+  .myPortfolio{ text-align: center;
+  font-size:55px;
+  text-decoration: underline;
+  color: black;
+  background-color: blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 10px;
+  padding-top: 10px;
+  }
+
+  .sobermeets, .sobermeets2, .sobermeets3, .sobermeets5 {
+      width:700px;
+      height:400px;
+      padding: 5px;
+      
+  }
+
+  .starbrands1, .starbrands2, .starbrands3, .starbrands4 {
+      width:700px;
+      padding: 5px;
+      
+  }
+
+
+  .sparklingclean,  .sparklingclean2, .sparklingclean3, .sparklingclean4{
+      width: 700px;
+      padding: 5px;
+  }
+
+
+  .quotespage, .quotespage2, .quotespage3, .quotespage4 {
+      width: 700px;
+      padding: 5px;
+  }
+
+  .aiimagecreator {
+     width: 1300px;
+      border: 5px solid black;
+  }
+  
+  .rpsgame, .rpsgame2 {
+      width: 700px;
+      padding: 5px;
+  }
+
+
+  .project3, .project4, .project2, .project1 {
+      text-decoration: underline;
+      font-size: 40px;
+      background-color: blueviolet;
+  }
+
+  .contactWrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: stretch;
+      width: 98%;
+      padding: 20px;
+      background-color: white;
+      margin-left: 15px;
+  }
+
+  .contactText {
+      display: flex;
+      flex-direction: column;
+      font-size: 40px;
+      padding: 10px;
+      /* margin-left: 10px; */
+      width: 100%;
+      text-align: center;
+  }
+
+  .myPhoto {
+      background-color: blueviolet;
+      height: 500px;
+      border: 10px solid black;
+      /* box-shadow: 5px 5px blueviolet, 10px 10px black, 15px 15px blueviolet; */
+      padding: 15px;
+  }
+
+  .myInfo {
+      padding: 10px;
+  }
+
+  .link {
+      text-align: center; 
+      text-decoration: underline;
+      font-weight: bolder;
+      font-size: 24px;
+      color: blue;
+  }
+
+  .code1 {
+      height: 450px;
+      margin-top: 20px;;
+  }
+  .companyName {
+      text-decoration: none;
+  }
+
+  .socialWrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-left: 1%;
+      
+  }
+  .icon {
+      margin-left: 50px;
+      color: blueviolet;
+      
+      
+  }
+
+  .gitlab {
+      color: blueviolet; 
+      
+  }
+
+
+  .socialWrapper svg:hover {
+      color: black;
+    }
